@@ -1,7 +1,7 @@
 # vulns
 list of vulns 
-1. Web & API Vulnerabilities
-Easy
+## 1. Web & API Vulnerabilities
+### Easy
 SQL Injection (SQLi) – Basic
 
 Cross-Site Scripting (XSS) – Reflected
@@ -46,7 +46,7 @@ Authentication Bypass via Parameter Tampering
 
 Enumeration via Response Messages
 
-Medium
+### Medium
 Blind SQL Injection (Boolean / Time-based)
 
 NoSQL Injection
@@ -93,7 +93,7 @@ Race Condition – Basic (Double Spend, Concurrent Updates)
 
 Clickjacking (UI Redress)
 
-Hard
+### Hard
 Remote Code Execution (RCE)
 
 Advanced SSRF → Internal Pivoting
@@ -136,8 +136,8 @@ Advanced WebSocket Injection
 
 Supply Chain Attack – Malicious JS/NPM Dependency
 
-2. Network & Infrastructure Vulnerabilities
-Easy
+## 2. Network & Infrastructure Vulnerabilities
+### Easy
 Open Ports / Service Enumeration
 
 Default Credentials on Services / Devices
@@ -158,7 +158,7 @@ Exposed Admin Interfaces
 
 Misconfigured Firewall Rules (Overly Permissive)
 
-Medium
+### Medium
 SMB Relay Attacks
 
 NTLM Relay
@@ -187,7 +187,7 @@ Router ACL Bypass
 
 Reverse Proxy Misconfigurations
 
-Hard
+### Hard
 Zero-Day Network Exploits
 
 BGP Hijacking
@@ -214,8 +214,8 @@ DNS Rebinding in Internal Apps
 
 DHCP Starvation Attacks
 
-3. Cloud Security Vulnerabilities
-Easy
+## 3. Cloud Security Vulnerabilities
+### Easy
 Publicly Accessible S3 Buckets / Azure Blob / GCP Storage
 
 Exposed Cloud Credentials in Code
@@ -232,7 +232,7 @@ Lack of Logging (CloudTrail, Stackdriver, Activity Logs disabled)
 
 Default Service Account Permissions
 
-Medium
+### Medium
 SSRF to Cloud Metadata Service (AWS, Azure, GCP)
 
 IAM Privilege Escalation (Misconfigured Policies)
@@ -257,7 +257,7 @@ Unrestricted SNS/SQS Topics
 
 Cloud Asset Enumeration (Public AMIs, Disks)
 
-Hard
+### Hard
 Chaining SSRF → Metadata → IAM Role Compromise
 
 Kubernetes Privilege Escalation → Cluster Admin
